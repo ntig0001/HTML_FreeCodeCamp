@@ -1,0 +1,17 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* grid-column-gap: 2em;
+  grid-row-gap: 2em;*/
+  grid-gap: 1em;
+  /*border: 2px green solid;*/
+}
+.wrapper > div{
+  background-color: #eee;
+  padding: 1em;
+  /*border: 3px blue solid;*/
+}
+
+.wrapper>div:nth-child(odd){
+  background-color:#ddd;
+}
