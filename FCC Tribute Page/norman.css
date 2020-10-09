@@ -1,51 +1,61 @@
-    body{
-    background-color: white;
-    }
-    h1 {
-        text-align: center;
-        font-size: 48px;
-        color: black;
-        margin: 35px;
-        padding: 70px 0px 0px 0px;
-      }
-      .item1{
-        text-align: center;
-      }
-      .item2{
-        text-align: center;
-        padding: 10px 0px 20px 10px;
-      }
-      #image{
-        padding: 20px 0px 0px 0px;
-        border: 2px solid black;
-      }
-    #img-div{
-        background-color: white;
-        text-align: center;
-        color: black;
-        padding: 0px;
-        margin: 30px 15px 0px 15px;
-    }
-    figcaption{
-        padding: 0px 0px 20px 0px;
-      }
-    #main {
-      font-size: 1em;
-      min-height: 300px;
-      width: 100%;
-      font-family: sans-serif;
-      background: lightgrey;
-    } 
-      .unordered{
-       padding: 0px 0px 0px 500px;
-       justify-content: space-between;
-      }
-      .item3 {
-        font-style: italic;
-        padding: 10px 0px 0px 500px;
-      }
-      
-      .item4{
-        text-align: center;
-        font-size: 15px;
-      }
+body{
+  background: #30C19A;
+  font-family: Tahoma;
+  color: #050533;
+  }
+
+.body-part{
+  width: 50%;
+  float: top;
+  margin: 0 auto;
+}
+
+.conclusion{
+  width: 50%;
+  float: top;
+  margin: 10 auto;
+}
+
+#img-div{
+  max-width: 2000px;
+}
+.img{
+  max-width: 100%;
+  border: 2px solid #604F14;
+  text-align: center;
+  display: block;
+}
+
+#img-div p {
+  text-align: center;
+  font-size: 80%;
+  font-weight: 600;
+}
+#main{
+  background:url(https://images.unsplash.com/photo-1419032228631-36ba271c5eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center;
+  max-width: 2000px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#title{
+  font-size: 48px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#footer{
+  padding-top: 30px;
+}
+
+a{
+  color: #c2c427;
+  text-decoration: none;
+}
+a:hover{
+ background: #05670D;
+ color: white;
+ transition: background 0.6s;
+}
